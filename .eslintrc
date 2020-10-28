@@ -1,0 +1,48 @@
+{
+  "plugins": ["prettier", "jsx-a11y", "simple-import-sort", "react-hooks"],
+  "extends": [
+    "airbnb",
+    "airbnb/hooks",
+    "prettier",
+    "plugin:jsx-a11y/recommended",
+    "prettier/react"
+  ],
+  "parser": "babel-eslint",
+  "env": {
+    "node": true,
+    "browser": true,
+    "jest": true
+  },
+  "rules": {
+    "no-unused-vars": "off",
+    "import/no-unresolved": "off",
+    "import/no-extraneous-dependencies": "off",
+    "import/prefer-default-export": "off",
+    "react/prop-types": "off",
+    "class-methods-use-this": "off",
+    "import/no-cycle": "off",
+    "react/button-has-type": "off",
+    "react/state-in-constructor": "off",
+    "react/jsx-props-no-spreading": "off",
+    "import/order": "off",
+    "sort-imports": "off",
+    "simple-import-sort/sort": [
+      "error",
+      {
+        "groups": [
+          ["react"],
+          ["^\\u0000"],
+          ["^@?\\w"],
+          ["^[^.]"],
+          ["^\\."],
+          ["styled$"],
+          [".css$"],
+          ["containers"],
+          ["components"],
+          ["data", "types", "utils"],
+          ["asserts"]
+        ]
+      }
+    ]
+  }
+}

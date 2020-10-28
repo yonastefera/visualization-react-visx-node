@@ -7,7 +7,7 @@
 
 ## Note:
 
-In development of the app I used Material-UI, visx, node.js + express for server.
+In development of the app I used Material-UI, visx, node.js + node-express for server.
 
 The app divided to two folders `server` and `src`.
 In server folder you can see node.js server with dataManager for proceed travel data and calculate total amount of travels.

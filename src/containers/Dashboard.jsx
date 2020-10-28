@@ -118,7 +118,7 @@ export function Dashboard({ tripData, totalsByDate, states, availableDates, onFi
   return (
     <div className={styles.container}>
       <Typography className={styles.h1Text} variant='h1' component='h1'>
-        Visualisation of travel dataset
+        Visualization of travel dataset
       </Typography>
       <section className={styles.filtersContainer}>
         <section className={styles.pickerContainer}>

@@ -1,11 +1,12 @@
-#The app created by Create React App
+# The app created by Create React App
 
-###To run the app you have two ways:
+### To run the app you have two ways:
 
 1. Run it by docker `docker-compose up` and the app will start on `localhost:80`
 2. Run it by `npm i` and `npm run start` and the app will start on `localhost:3000`
 
-##Note:
+## Note:
+
 In development of the app I used Material-UI, visx, node.js + express for server.
 
 The app divided to two folders `server` and `src`.
